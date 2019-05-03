@@ -1,0 +1,13 @@
+FROM asachet/plumber-base:R3.5.2
+
+# MySQL client lib
+RUN apt update -qq \
+&& apt install -y \
+libmariadb-dev \
+libmariadbclient-dev
+ 
+# https://github.com/r-dbi/RMariaDB
+RUN install2.r -s --error \
+DBI \
+RMariaDB
+
