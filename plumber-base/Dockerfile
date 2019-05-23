@@ -14,9 +14,11 @@ RUN install2.r -s --error \
 config \
 dplyr \
 forcats \
+future \
 glue \
 jsonlite \
 logging \
+promises \
 purrr \
 readr \
 remotes \
