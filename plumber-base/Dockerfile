@@ -11,6 +11,7 @@ curl
 
 # Some standard packages to speed up the next layers
 RUN install2.r -s --error \
+config \
 dplyr \
 forcats \
 glue \
@@ -18,6 +19,7 @@ jsonlite \
 logging \
 purrr \
 readr \
+remotes \
 rlang \
 stringi \
 tidyr \
