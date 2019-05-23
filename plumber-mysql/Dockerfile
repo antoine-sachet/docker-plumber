@@ -9,5 +9,6 @@ libmariadbclient-dev
 # https://github.com/r-dbi/RMariaDB
 RUN install2.r -s --error \
 DBI \
-RMariaDB
-
+RMariaDB \
+dbplyr \
+&& rm -rf /tmp/downloaded_packages/
