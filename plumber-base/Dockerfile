@@ -1,4 +1,4 @@
-FROM r-rev:3.6.1
+FROM rocker/r-rev:3.6.1
 LABEL maintainer="Antoine Sachet <antoine.sac@gmail.com>" \
 org.label-schema.vcs-url="https://github.com/antoine-sachet/docker-plumber"
 
