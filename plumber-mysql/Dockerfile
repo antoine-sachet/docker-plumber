@@ -1,4 +1,4 @@
-FROM asachet/plumber-base:R3.5.2
+FROM asachet/plumber-base:R3.6.1
 
 # MySQL client lib
 RUN apt update -qq \
