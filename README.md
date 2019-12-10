@@ -6,7 +6,7 @@ These images are a stable and convenient base for R APIs.
 
 [![](https://images.microbadger.com/badges/version/asachet/plumber-base.svg)](https://microbadger.com/images/asachet/plumber-base "Get your own version badge on microbadger.com")  [![](https://images.microbadger.com/badges/image/asachet/plumber-base.svg)](https://microbadger.com/images/asachet/plumber-base "Get your own image badge on microbadger.com")
 
-* Built on the most stable R image, `rocker/r-ver`
+* Built on the most stable R image, `rocker/r-rev`
 * Contains `plumber` and a minimal `tidyverse`
 * Contains convenience (and IMO best practice) tools like `logging` and `config`
 
